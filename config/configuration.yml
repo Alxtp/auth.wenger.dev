@@ -21,6 +21,8 @@ authentication_backend:
 access_control:
   default_policy: "deny"
   rules:
+    - domain: "traefik.home.wenger.dev"
+      policy: "one_factor"
     - domain: "cam01.wenger.dev"
       policy: "one_factor"
     - domain: "cam02.wenger.dev"

@@ -36,6 +36,7 @@ session:
       authelia_url: "https://auth.wenger.dev"
       expiration: "3 hour"
       inactivity: "15 minutes"
+      remember_me: "1d"
       default_redirection_url: "https://wenger.dev"
 
 regulation:
